@@ -1,32 +1,56 @@
-/* .bg1-img{
-    height: 25%;
-} */
 .bg1 {
-    position: relative;
-  }
-  
-  .text-overlay {
-    position: absolute;
-    top: 20%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-  }
-  
-  .text-overlay h1 {
-    font-size: 32px;
-  }
-  
-  .text-overlay p {
-    font-size: 18px;
-  }
-  .overlay-image {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    height: 5%;
-  }
-  
+      position: relative;
+    }
+    
+.bg-image img {
+      width: 100%;
+    }
+    
+.text-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translate(20px, 20px); 
+      text-align: center;
+      color: white;
+      z-index: 2; 
+    }
+    
+.text-overlay h1 {
+      font-size: 32px;
+    }
+    
+.overlay-image {
+      height: 5%;
+    }
+    .beautiful-button {
+      position: fixed;
+      top: 0;
+      right: 0;
+      transform: translate(-100%, 100%);
+      background: linear-gradient(to bottom, #1b1c3f, #4a4e91);
+      color: white;
+      font-family: "Segoe UI", sans-serif;
+      font-weight: bold;
+      font-size: 1vw;
+      border: none;
+      border-radius: 30px;
+      padding: 1.4vw 2.8vw;
+      cursor: pointer;
+      box-shadow: 0 0.5vw 1.5vw rgba(0, 0, 0, 0.2);
+      animation: button-shimmer 2s infinite;
+      transition: all 0.3s ease-in-out;
+    }
+    
+    
+.beautiful-button:hover {
+      background: linear-gradient(to bottom, #2c2f63, #5b67b7);
+      animation: button-particles 1s ease-in-out infinite;
+      transform: translateY(-2px);
+    }
+    
+.beautiful-button:active {
+      transform: scale(0.95);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    }
+    

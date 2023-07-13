@@ -3,24 +3,21 @@ import './Homepage.css';
 
 function Homepage() {
   return (
-    <div>
-        <div className='bg1'>
-        <img src='bg.webp'/>
-        <div className='text-overlay'>
-        <img className='overlay-image' src='templogo.png' alt='Overlay' />
-
-          <h1>Welcome to Terrace Gardeners</h1>
-
-        </div>
-        </div>
-
-
-
-
-
+    <div className='bg1'>
+      <div className='bg-image'>
+        <img src='bg.webp' alt='Background' />
+      </div>
+      <div className='text-overlay'>
+        {/* <img className='overlay-image' src='templogo.png' alt='Overlay' /> */}
+        <h1>Welcome to Terrace Gardeners</h1>
+        <button class="beautiful-button">
+  Chat Now
+</button>
+      </div>
+      
 
     </div>
-  )
+  );
 }
 
-export default Homepage
+export default Homepage;
