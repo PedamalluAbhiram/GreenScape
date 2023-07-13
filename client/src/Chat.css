@@ -1,0 +1,36 @@
+
+/* Change the background color of the chat container */
+.ChatContainer {
+    background-color: #f1f1f1;
+  }
+  
+  /* Change the background color of the message list */
+  .MessageList {
+    background-color: #ffffff;
+  }
+  
+  /* Change the text color of the messages */
+  .MessageText {
+    color: green;
+  }
+  .App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+  }
+  /* Change the background color of the user's outgoing messages */
+  .OutgoingMessage {
+    background-color: black;
+  }
+  
+  /* Change the background color of the assistant's incoming messages */
+  .IncomingMessage {
+    background-color: #e8f5e9;
+  }
+  
+  /* Change the background color of the typing indicator */
+  .TypingIndicator {
+    background-color: red;
+  }
+  

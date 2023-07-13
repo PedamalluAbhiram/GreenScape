@@ -6,6 +6,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 // import Homepage from './Homepage';
 import Chat from './Chat';
+// import Chat from './Chat';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
